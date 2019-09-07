@@ -1,0 +1,15 @@
+{
+  "name": "2devs_project",
+  "version": "1.0.0",
+  "description": "AeroPlatzi Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github:deveeup/2devs_project.git"
+  },
+  "author": "@deveeup @richardb9207",
+  "license": "MIT"
+}
