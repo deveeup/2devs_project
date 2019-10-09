@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from './Header';
+import '../assets/styles/components/Layout.scss';
 
 const Layout = ({children}) => (
   <>
-    <header><p>header</p></header>
-      {children}
+    <Header/>
+    {children}
     <footer><p>footer</p></footer>
   </>
 );
