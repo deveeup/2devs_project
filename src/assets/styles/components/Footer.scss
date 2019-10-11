@@ -1,0 +1,30 @@
+footer {
+  background-color: #00adb5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  font-family: 'Monserrat', sans-serif;
+  .item {
+    width: 50%;
+    margin: 0;
+    padding: 20px 0;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      outline: none;
+      color: white;
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+}
