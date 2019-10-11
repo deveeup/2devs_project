@@ -28,7 +28,7 @@ const Search = () => {
   return (
     <div className='search'>
       <p className='search-text'>
-        Disfruta de vuelos nacionales al mejor precio
+        Dinos cual es tu próximo destino...
       </p>
       <form className='search-form'>
         <p>¿Viajas ida y vuelta?</p>
@@ -87,6 +87,7 @@ const Search = () => {
             </div>
           )}
         </div>
+        <input type='submit' value={date.viewReturn ? 'Buscar vuelos' : 'Buscar vuelo'} />
       </form>
     </div>
   );
