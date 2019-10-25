@@ -7,7 +7,7 @@ import '../assets/styles/App.scss';
 const App = () => (
   <BrowserRouter>
     <Layout>
-      <Home/>
+      <Home />
     </Layout>
   </BrowserRouter>
 );

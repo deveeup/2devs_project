@@ -1,12 +1,18 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import Search from '../components/Search';
 
-const Home = (props) => {
+const Home = (state) => {
+  console.log(state);
   return (
     <>
-      <Search/>
+      <Search />
     </>
   );
 };
 
-export default Home;
+const mapStateToProps = (state) => ({
+  state,
+});
+
+export default connect(mapStateToProps, null)(Home);

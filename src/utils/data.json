@@ -1,0 +1,50 @@
+{
+  "airline": {
+    "id": "number",
+    "name": "string",
+    "date_register": "date",
+  },
+  "fleet_airplane": {
+    "id": "number",
+    "type": "string",
+    "airline": "*ariline",
+    "name": "string",
+    "passengers": "number"
+  },
+  "airports": {
+    "id": "number",
+    "name": "string",
+    "date_register": "date",
+    "country": "string",
+    "city": "string",
+    "address": "string"
+  },
+  "flights": {
+    "id": "number",
+    "date_register": "date",
+    "date_dlight_from": "date and hour",
+    "date_dlight_to": "date and hour",
+    "airport_from": "*airport",
+    "airport_to": "*airport",
+    "available_tickets": "number",
+    "solds_tickets": "number",
+    "airplane": "*airplane",
+    "pricing": "number",
+    "airline": "*airline",
+    "desc": "number"
+  },
+  "tickets": {
+    "id": "number",
+    "flight": "*flight",
+    "chair_number": "number",
+  },
+  "tickets_buy": {
+    "id": "number",
+    "ticket": "*ticket",
+    "date_buy": "date",
+    "user": "*user"
+  },
+  "users": {
+    "data": "..."
+  }
+}
