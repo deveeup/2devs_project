@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import "../imports.scss";
 
 .search {
-  background-image: url('../../images/background.jpg');
+  background-image: url("../../images/background.jpg");
   margin: 0;
   padding: 20px 0;
   min-height: 400px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   &-text {
     text-align: center;
     font-weight: bold;
@@ -44,7 +44,8 @@
         display: flex;
         justify-content: center;
         margin-top: 10px;
-        input, label{
+        input,
+        label {
           cursor: pointer;
         }
         label {
@@ -61,7 +62,7 @@
       flex-wrap: wrap;
       &-item {
         box-shadow: 5px 5px 5px #222831;
-        background-color: rgba(#222831, .7);
+        background-color: rgba(#222831, 0.7);
         border-radius: 5px;
         margin: 10px;
         display: flex;
@@ -80,7 +81,7 @@
           width: 100%;
           label {
             color: white;
-            font-family: 'Montserrat', sans-serif;
+            font-family: "Montserrat", sans-serif;
             width: 100%;
             text-align: center;
             margin: 0 auto 10px auto;
@@ -99,7 +100,7 @@
         }
       }
     }
-    input[type="submit"]{
+    input[type="submit"] {
       padding: 10px 20px;
       border: none;
       background-color: #00adb5;
@@ -115,7 +116,7 @@
       cursor: pointer;
       &:active {
         animation: none;
-        transform: scale(.9);
+        transform: scale(0.9);
         background-color: #222831;
       }
       input[type="submit"]:hover {
@@ -126,12 +127,12 @@
 }
 @keyframes identifier {
   0% {
-    transform: scale(.9)
+    transform: scale(0.9);
   }
   50% {
-    transform: scale(.95)
+    transform: scale(0.95);
   }
   100% {
-    transform: scale(.9)
+    transform: scale(0.9);
   }
 }
