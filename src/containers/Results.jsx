@@ -5,7 +5,10 @@ const Results = props => {
   return (
     <div className="Results">
       <h1>Resultados de la busqueda</h1>
-      <div>
+      <div className="Results-container">
+        <Ticket />
+        <Ticket />
+        <Ticket />
         <Ticket />
       </div>
     </div>
