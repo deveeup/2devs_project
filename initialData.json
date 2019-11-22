@@ -1,0 +1,56 @@
+{
+  "tickets": [
+    {
+      "id_ticket": "ATFWN557",
+      "id_flight": "VO690718",
+      "user": "774-56-7113",
+      "chair": "29E"
+    },
+    {
+      "id_ticket": "ATLKX607",
+      "id_flight": "AC833155",
+      "user": "185-26-3382",
+      "chair": "26C"
+    },
+    {
+      "id_ticket": "ATCOD974",
+      "id_flight": "CK963476",
+      "user": "425-53-6241",
+      "chair": "93P"
+    }
+  ],
+  "general": [
+    {
+      "id_flight": "UO536536",
+      "city_origin": "BOG",
+      "city_destiny": "MED",
+      "name_airport_origin": "Aeropuerto Internacional El Dorado",
+      "name_airport_destiny": "Aeropuerto de Medellin",
+      "coordinate_destiny": "50.108911, -25.914997",
+      "coordinate_origin": "33.242577, -55.817760",
+      "date_origin": "2019-09-02 19:10:36",
+      "date_destiny": "2019-09-03 0:10:36",
+      "type_tickets": "Clase baja",
+      "total_tickets": 58,
+      "sold_tickets": 8,
+      "forsale_tickets": 50,
+      "price": 300
+    },
+    {
+      "id_flight": "NA949163",
+      "city_origin": "CALI",
+      "city_destiny": "CARTAGENA",
+      "name_airport_origin": "Aeropuerto Cali",
+      "name_airport_destiny": "Aeropuerto de Cartagena",
+      "coordinate_destiny": "50.108911, -25.914997",
+      "coordinate_origin": "33.242577, -55.817760",
+      "date_origin": "2019-09-02 19:10:36",
+      "date_destiny": "2019-09-03 0:10:36",
+      "type_tickets": "Clase baja",
+      "total_tickets": 10,
+      "sold_tickets": 15,
+      "forsale_tickets": 75,
+      "price": 150
+    }
+  ]
+}
