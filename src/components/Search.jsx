@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom'
 import "../assets/styles/components/Search.scss";
 import airplaneFrom from "../assets/images/airplane-1.png";
 import airplaneTo from "../assets/images/airplane-2.png";
@@ -94,10 +95,9 @@ const Search = () => {
             </div>
           )}
         </div>
-        <input
-          type="submit"
-          value={date.viewReturn ? "Buscar vuelos" : "Buscar vuelo"}
-        />
+        <Link to="/resultados" className="SearchButtom">
+          Buscar vuelos
+        </Link>
       </form>
     </div>
   );

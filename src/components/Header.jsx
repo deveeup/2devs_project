@@ -11,13 +11,13 @@ const Header = props => (
     <div className="burguerMenu">
       <ul>
         <li>
-          <a href="#">Comprar</a>
+          <Link to="/">Comprar</Link>
         </li>
         <li>
-          <a href="#">Vender</a>
+          <Link to="#">Vender</Link>
         </li>
         <li>
-          <a href="#">Promociones</a>
+          <Link to="#">Promociones</Link>
         </li>
       </ul>
     </div>
