@@ -16,6 +16,10 @@ El alcance del proyecto está organizado para tener en su primera fase una plata
 Ser la plataforma preferida por el paīs, llegando a la mayor cantidad de usuarios, sin importar su edad o estrato social, poder ofrecerles no solo tíquets aéreos, sino también hospedajes, renta de vehiculos, destinos turísticos, manteniendo como pilar principal la economia, buscando ofrecer los mejores precios y ofreciendo una experiencia única.
 De esta manera los estratos 1, 2 y 3 podrán planificar y hacer sus vacaciones en un corto periodo de tiempo y sin resstrigir de una manera notoria su economía.
 
+### APi de Consumo
+
+https://github.com/richardb9207/api_aeroplatzi
+
 #### task
 
 - lista priorizada de funcionalidades importantes(peso por porcentaje)
