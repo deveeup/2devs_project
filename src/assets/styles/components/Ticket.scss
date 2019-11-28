@@ -30,9 +30,9 @@
     display: block;
     margin: 4px 0;
     width: 90%;
-
   }
-  button {
+  a {
+    text-decoration: none;
     background-color: $blue;
     font-size: 1.2em;
     color: white;
