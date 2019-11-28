@@ -22,6 +22,16 @@ const Header = ({ user }) => {
           <li>
             <Link to="#">Promociones</Link>
           </li>
+          <li id="user">
+            <img src={user.pic} />
+            <div className="user-details">
+              <ul>
+                <li><Link to="/">{user.name}</Link></li>
+                <li><Link to="/">Mis tickets</Link></li>
+                <li><Link to="/">Salir</Link></li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
     </header>

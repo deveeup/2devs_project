@@ -13,7 +13,6 @@
   align-items: center;
   flex-direction: column;
   overflow: hidden;
-  
   img {
     height: 150px;
     width: 100%;
@@ -31,27 +30,28 @@
     margin: 4px 0;
     width: 90%;
   }
-  a {
-    text-decoration: none;
-    background-color: $blue;
-    font-size: 1.2em;
-    color: white;
-    border-radius: 5px;
-    outline: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    transition: 0.5s;
-    &:active {
-      transform: scale(0.9);
-    }
-  }
   &-actionContainer {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    a {
+      text-decoration: none;
+      background-color: $blue;
+      font-size: 1.2em;
+      color: white;
+      border-radius: 5px;
+      outline: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      transition: 0.5s;
+      &:active {
+        transform: scale(0.9);
+      }
+    }
     h2 {
       margin-right: 15px;
+      width: 40%;
     }
   }
 }

@@ -11,7 +11,7 @@ const Ticket = props => (
     <span>Hora de vuelo: {props.hour_from} - {props.hour_to}</span>
     <div className="Ticket-actionContainer">
       <h2>$ {props.price}</h2>
-      <Link to={{ pathname: '/ticket', state: { ticket: { ...props } } }}>Ver más</Link>
+      <Link to={{ pathname: '/ticket', state: { ticket: { ...props } } }}>Comprar</Link>
     </div>
   </div>
 );
