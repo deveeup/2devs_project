@@ -13,6 +13,7 @@ const Results = ({ tickets }) => {
           tickets.map(ticket => {
             return (
               <Ticket
+                id_ticket={ticket.id_ticket}
                 key={ticket.id_ticket}
                 from={ticket.from}
                 to={ticket.to}

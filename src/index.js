@@ -6,6 +6,15 @@ import reducer from './reducers';
 import App from './routes/App.js';
 
 const initialState = {
+  user: {
+    name: "Carlos",
+    lastName: "Gonzalez",
+    user: "carlos_g",
+    phone: "3023876592",
+    email: "carlosg@gmail.com",
+    address: "Cll 137 #91-97, T3, Apto 802",
+    lifeMiles: false
+  },
   cart: [],
   tickets: [
     {
