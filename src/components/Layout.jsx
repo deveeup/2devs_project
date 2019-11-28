@@ -3,11 +3,11 @@ import Header from './Header';
 import Footer from './Footer';
 import '../assets/styles/components/Layout.scss';
 
-const Layout = ({children}) => (
+const Layout = ({ children }) => (
   <>
-    <Header/>
+    <Header />
     {children}
-    <Footer/>
+    <Footer />
   </>
 );
 

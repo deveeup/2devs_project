@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/components/Ticket.scss";
-
+import { Link } from 'react-router-dom'
 const Ticket = props => (
   <div className="Ticket">
     <img src={props.img} />
@@ -11,7 +11,7 @@ const Ticket = props => (
     <span>Hora de vuelo: {props.hour_from} - {props.hour_to}</span>
     <div className="Ticket-actionContainer">
       <h2>$ {props.price}</h2>
-      <button>Comprar</button>
+      <Link to="/ticket">Comprar</Link>
     </div>
   </div>
 );

@@ -1,17 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { connect } from 'react-redux';
 import Ticket from '../components/Ticket';
 import '../assets/styles/containers/Results.scss';
-const Results = (props) => {
-  const [tickets, setTickets] = useState([]);
-  useEffect(() => {
-    fetch('http://localhost:3000/tickets')
-      .then(response => response.json())
-      .then(data => setTickets(data))
-  }, []);
-  console.log(tickets);
+
+const Results = ({ tickets }) => {
+
   return (
     <div className='Results'>
-      <h1>Resultados de la busqueda</h1>
+      <h1>Resultados de la busqueda!</h1>
       <div className='Results-container'>
         {
           tickets.map(ticket => {
@@ -36,4 +32,12 @@ const Results = (props) => {
   );
 };
 
-export default Results;
+const mapStateToProps = state => {
+  return {
+    cart: state.cart,
+    tickets: state.tickets,
+    total: state.total,
+  };
+};
+
+export default connect(mapStateToProps, null)(Results);
