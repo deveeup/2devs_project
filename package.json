@@ -14,7 +14,7 @@
   "author": "@deveeup, @richardb9207",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "node-fetch": "^2.6.0",
     "prop-types": "^15.7.2",
